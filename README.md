@@ -1,13 +1,13 @@
 # Jekyll Offline - Turn any Jekyll site into an offline application with relative links
 
-### Personal note
+## Preamble
 This repository is a fork waiting to (maybe) be merged to the first repository [Jekyll Offline](https://dohliam.github.io/jekyll-offline) created.
 
 It fixes the undefined method `encode' for URI:Module from the other repository (it was deprecated).
 
 The code is a bit simplified so it should be easier to maintain, but I could have broken things, feel free to add issues and pull requests if you want to correct problems.
 
-Also I didn't understand every argument of the original config file, so maybe there are less features.
+Also I didn't understand every argument purpose in the original config file, so maybe there are less features.
 
 ## Jekyll Offline
 Creates a copy of a specified Jekyll-based website and rewrites all internal links as relative URLs so that the site can be viewed from a local machine without the need for Internet access.
@@ -34,7 +34,7 @@ If you have the source code for a Jekyll site that has not been generated yet, y
 
 ## Usage
 
-### Demo
+#### Demo
 Clone or download the repository and enter the following command in a terminal from within the repo main directory:
 
     `./main.rb demo.yml`
@@ -43,7 +43,7 @@ You just created a new folder : `demo_offline` in the same directory.
 
 This folder has the same structure as your source directory and is an offline version of the default Jekyll demo site. 
 
-### Your Site
+#### Your Site
 
 To create your own new offline site, add your variables in the `config.yml`:
   - `source` : the path to the _site
@@ -66,10 +66,6 @@ It is extremely useful to have an offline version of a website that can work wit
 
 This script has been used to create fully-functional offline versions of the [Global Storybooks](https://globalstorybooks.net) websites.
 
-## Issues
-
-A lot of code has changed, so maybe the previous issues don't apply anymore. If you encounter an issue, create an issue and maybe someone will resolve it !
-
 ## Contributing
 
 If you encounter any problems while converting a Jekyll site, please open an issue, ideally with a link to the source code of the website in question. PRs are also always welcome!
@@ -78,7 +74,6 @@ If you encounter any problems while converting a Jekyll site, please open an iss
 
 MIT.
 
-### Personal note:
+#### Personal note:
 I'm novice so I don't know what is allowed.
-
 Based on [This article](https://www.gnu.org/philosophy/open-source-misses-the-point.en.html) I would like to license this fork under GPLv3 if it's possible.
