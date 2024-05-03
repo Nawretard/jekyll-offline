@@ -31,7 +31,6 @@ If you have the source code for a Jekyll site that has not been generated yet, y
     jekyll build
 ```
 
-That's it !
 
 ## Usage
 
@@ -44,7 +43,7 @@ You just created a new folder : `demo_offline` in the same directory.
 
 This folder has the same structure as your source directory and is an offline version of the default Jekyll demo site. 
 
-### 
+### Your Site
 
 To create your own new offline site, add your variables in the `config.yml`:
   - `source` : the path to the _site
